@@ -1,0 +1,84 @@
+ /*footer start*/
+ footer{
+    background-color: #000000;
+    color: #ffffff;
+ 
+}
+footer a{
+    color: #ffffff;
+    text-decoration: none;
+}
+/*footer-bottom-area*/
+.footer-bottom-area{
+    padding: 2%;
+}
+.footer-bottom-area ul{
+    list-style: none;
+    display: flex;
+}
+.footer-bottom-area li{
+    padding-left: 3%;
+    color: var(--text-color);
+}
+.footer-bottom-area li a{
+    color: var(--text-color);
+}
+.footer-bottom-area p{
+   text-align: right;
+}
+/*footer-bottom-area*/
+.loginPageHr{
+    width: 90%;
+}
+
+.servicetext:hover{
+    color: aqua;
+}
+
+.list-inline-item i{
+    color: #ffffff;
+    font-size: 2rem;
+    padding: 10%;
+    
+}
+@media (max-width: 768px) {
+    .FooterFirstName {
+        text-align: center;
+        font-size: 60px;
+    }
+    .FooterSecondName{
+        font-size: 60px;
+        color: aqua;
+    }
+    .follow{
+        font-size: 22px;
+    }
+    .social_media{
+        font-size: 36px;
+    }
+
+}
+
+/* white footer*/
+/* .whiteSec a{
+    color: #000;
+}
+.whiteSec .list-inline-item i{
+    color: #000000;
+
+}
+.whiteSec p,h6{
+    color: #000000;
+}
+.whiteSec hr{
+   color: #000;
+
+}
+.whiteSec .bx-copyright{
+    color: #000;
+} */
+
+footer a:hover {
+    text-decoration: underline;
+}
+/*footer end*/

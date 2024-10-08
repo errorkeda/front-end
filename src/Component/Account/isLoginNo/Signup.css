@@ -1,0 +1,10 @@
+.texttag{
+    position: absolute;
+    right: 10px;
+}
+.iconImage{
+    background-color:  #ec4a89;
+}
+.description{
+    font-size: 0.7rem;
+}

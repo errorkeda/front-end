@@ -1,0 +1,51 @@
+.categoryImage:hover{
+  border:  solid rgb(32, 32, 88);
+}
+.feature-title{
+  font-family: "Poppins";
+}
+.feature-title:hover{
+  font-weight: bold;
+}
+.titleName {
+  font-family: 'Poppins';
+  font-size: 35px;
+  font-weight: bold;
+}
+.image:hover{
+  transform: scale(1.2);
+  /* border: 2px solid aqua; */
+}
+.image {
+  transition: transform 0.3s ease, border 0.3s ease;
+}
+.feature-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25rem; 
+  font-weight: 600; 
+  color: #333;
+  padding: 1rem;
+  margin: 0; 
+  transition: color 0.3s ease;
+  
+}
+
+.feature-box:hover .feature-title {
+  color: #007bff;
+  font-size: 30px;
+}
+.feature-box{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-family: 'poppins';
+}
+.overflow-auto {
+  overflow: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.overflow-auto::-webkit-scrollbar {
+  display: none;
+}

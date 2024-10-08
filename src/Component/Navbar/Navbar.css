@@ -1,0 +1,121 @@
+/* Navbar start */
+.dropdown-menu {
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+}
+.dropdown-item {
+  /* color: antiquewhite; */
+}
+.dropdown-item:hover {
+  color: black;
+  font-weight: bolder;
+  background-color: aqua;
+}
+.cartIcon:hover {
+  border: solid #61dafb;
+  border-radius: 44%;
+}
+
+/* Navbar end */
+.loginBut {
+  background-color: aqua;
+  color: #000000;
+  font-weight: bold;
+}
+
+.logoFirstName {
+  color: aliceblue;
+  font-weight: bold;
+}
+.logoSecondName {
+  color: aqua;
+  font-weight: bold;
+}
+.rounded-image {
+  margin-top: 8px;
+  font-size: 30px;
+}
+.locationlogo {
+  /* margin-left: 179px; */
+}
+/* Hide the location-container class for mobile view */
+@media (max-width: 767px) {
+  .location-container {
+    display: none;
+  }
+  .navbar2 {
+    display: none;
+  }
+  /* .locationIcon {
+    display: none;
+  } */
+  .navbar-toggler {
+    border: none;
+  }
+}
+
+/* Ensure input group is positioned relative */
+.input-group {
+  position: relative;
+}
+
+/* Style for the suggestions list */
+.suggestions-list {
+  position: absolute;
+  top: 100%; /* Positioned below the input field */
+  left: 0;
+  right: 0;
+  background-color: white;
+  /* font-weight: bold; */
+  --bs-border-radius: 0.375rem;
+  color: black;
+  border: 0px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  max-height: 200px; /* Adjust as needed */
+  overflow-y: auto;
+  z-index: 1000; /* Ensure dropdown is above other content */
+}
+.suggestions-list li:hover {
+  background-color: aqua;
+  color: black;
+  font-weight: bold;
+}
+
+/* Style for individual suggestion items */
+.autocomplete-suggestion {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+
+
+.nav-item .dropdown-menu {
+  display: none;
+  margin-top: 0.125rem; 
+}
+
+.profile-nav{
+  margin-top: 2.125rem !important; 
+}
+
+.profile-tab{
+  display: flex !important;
+  flex-direction: row-reverse;
+  margin-top: -4px;
+}
+.nav-item:hover .dropdown-menu {
+  display: block; 
+}
+
+.nav-item .dropdown-toggle::after {
+  display: none; 
+}
+
+@media (max-width : 570px){
+  .profile-tab{
+    flex-direction: column-reverse;
+    margin-left: 10px;
+  }
+}

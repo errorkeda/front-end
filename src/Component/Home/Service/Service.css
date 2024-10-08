@@ -1,0 +1,70 @@
+.serviceName{
+    font-family: 'Poppins';
+    font-size: 35px;
+    font-weight: bold;
+}
+.imagetrans:hover{
+    color: black;
+    background-color: aqua;
+}
+.categoryList {
+    display: none;
+  }
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .serviceList {
+      display: none;
+    }
+  
+    .categoryList {
+      display: block;
+    }
+  }
+
+
+  /* Service.css */
+
+/* Container for the service section */
+.serviceSection {
+  background-color: #f8f9fa;
+}
+
+/* Styling for service cards */
+.card {
+  overflow: hidden;
+  position: relative;
+}
+
+/* Styling for images within cards */
+.card img {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Zoom effect on hover */
+.card:hover img {
+  transform: scale(1.05);
+  opacity: 0.8;
+}
+
+/* Card body styling */
+.card-body {
+  position: relative;
+  z-index: 1;
+}
+
+/* Card link styling */
+.card-link {
+  text-decoration: none;
+}
+
+.card-link:hover {
+  text-decoration: underline;
+}
+
+/* Additional styles for responsiveness */
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 1rem;
+  }
+}

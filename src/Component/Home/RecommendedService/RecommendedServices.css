@@ -1,0 +1,56 @@
+.img1 {
+  background-image: url("https://laundrinoassets.s3.ap-south-1.amazonaws.com/LaundriNo_Project/Home/mother-with-daughter-doing-laundry-self-serviece-laundrette.jpg");
+}
+.img2 {
+  background-image: url("https://laundrinoassets.s3.ap-south-1.amazonaws.com/LaundriNo_Project/Home/freshly-laundered-linens-stacked-neatly-table-bright-laundry-room.jpg");
+}
+.img3 {
+  background-image: url("https://laundrinoassets.s3.ap-south-1.amazonaws.com/LaundriNo_Project/Home/still-life-say-no-fast-fashion.jpg");
+  height: 100%;
+}
+
+.specRow {
+    position: relative;
+    overflow: hidden;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .specRow:hover {
+    opacity: 0.7;
+  }
+  
+  .specRow img {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .specRow img.fade-out {
+    opacity: 0;
+  }
+  
+  .specRow img.fade-in {
+    opacity: 1;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .overlay.fade-out {
+    opacity: 0;
+  }
+  
+  .overlay.fade-in {
+    opacity: 1;
+  }
+  .specRow:hover .overlay {
+    opacity: 1;
+  }
